@@ -1,0 +1,31 @@
+ul {
+    display: initial;
+}
+
+li {
+    list-style: none;
+    padding: 6px;
+}
+
+.container {
+    margin: auto;
+    width: 25%;
+}
+
+.container-input {
+    border-radius: 3px;
+    font-size: 14px;
+    margin-left: -8px;
+    padding: 7px;
+    width: 100%;
+}
+
+.container-title {
+    font-size: 4em;
+    margin: 14px 0;
+    text-align: center;
+}
+
+.container-task {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}

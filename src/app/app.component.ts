@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  tasks: string[] = ['attend the boot camp', 'do the homework', 'bring candy to Juan', 'participate'];
+
+  getTask(task: string) {
+    this.tasks.push(task);
+
+  }
+
+  deleteTask(task: string) {
+    this.tasks = this.tasks.filter(tasks => tasks !== task);
+  }
 }

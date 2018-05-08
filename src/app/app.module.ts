@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TasksComponent } from './tasks/tasks.component';
+import { ShowDirective } from './show.directive';
+import { SelectDirective } from './select.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TasksComponent,
+    ShowDirective,
+    SelectDirective
   ],
   imports: [
     BrowserModule

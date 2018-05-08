@@ -1,0 +1,7 @@
+.button-remove {
+    background: transparent;
+    border: none;
+    color: red;
+    display: none;
+    font-weight: bold;
+}
