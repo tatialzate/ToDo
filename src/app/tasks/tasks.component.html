@@ -1,5 +1,6 @@
-<input type="radio" />
-
-<span>{{listTask}}</span>
+<input type="checkbox"
+       (change)="onChangeState(task)" />
+       
+<span [class]="onGetStyle(task.state)">{{task.text}}</span>
 <button class="button-remove"
-        (click)="onRemoveTask(listTask)">X</button>
+        (click)="onRemoveTask(task.id)">X</button>

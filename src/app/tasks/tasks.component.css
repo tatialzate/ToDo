@@ -5,3 +5,7 @@
     display: none;
     font-weight: bold;
 }
+
+.item--select {
+    text-decoration: line-through;
+}

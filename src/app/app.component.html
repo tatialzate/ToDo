@@ -8,9 +8,14 @@
         <ul>
             <li appShow
                 *ngFor="let task of tasks; let i = index">
-                <app-tasks [listTask]="task"
-                           (removeTask)="deleteTask($event)"></app-tasks>
+                <app-tasks [task]="task" (removeTask)="deleteTask($event)" (activeTask)="activeTask()"></app-tasks>
             </li>
         </ul>
+    </div>
+    <div>
+        <div>{{itemsActive.length}} items</div>
+        <button (click)="showAllTask()">All</button>
+        <button (click)="showActiveTask()">Active</button>
+        <button (click)="showCompletedTask()">Completed</button>
     </div>
 </div>
