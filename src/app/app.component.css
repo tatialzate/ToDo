@@ -7,6 +7,14 @@ li {
     padding: 6px;
 }
 
+button{
+    width: auto;
+    height: 30px;
+    border-radius: 4px;
+    background: #141431;
+    color:white;
+}
+
 .container {
     margin: auto;
     width: 25%;
@@ -28,4 +36,16 @@ li {
 
 .container-task {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container-actions{
+    margin: 16px
+}
+
+.element--show{
+    display: inline-block;
+}
+
+.element--hide{
+    display: none;
 }

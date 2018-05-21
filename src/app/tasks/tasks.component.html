@@ -1,5 +1,5 @@
 <input type="checkbox"
-       (change)="onChangeState(task)" />
+       (change)="onChangeState(task)" [checked]="task.state"/>
        
 <span [class]="onGetStyle(task.state)">{{task.text}}</span>
 <button class="button-remove"
